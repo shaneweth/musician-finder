@@ -1,0 +1,24 @@
+{
+  "name": "musician-finder",
+  "version": "1.0.0",
+  "description": "Musician finder app using Express",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.16.4",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shaneweth/musician-finder.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shaneweth/musician-finder/issues"
+  },
+  "homepage": "https://github.com/shaneweth/musician-finder#readme"
+}
