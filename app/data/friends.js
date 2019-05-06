@@ -50,11 +50,6 @@ var musicianArray = [
     }
 ];
 
-console.log(musicianArray[0].scores.length);
 
-// use Math.abs
-
-// var totDif = [];
-// for(let i = 0; i < musicianArray[0])
-// module.exports = musicianArray;
+module.exports = musicianArray;
 
