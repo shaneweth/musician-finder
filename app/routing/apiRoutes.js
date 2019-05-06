@@ -23,7 +23,9 @@ module.exports = function (app) {
                 var userInput = req.body.scores[j];
                 var currentFriendScore = musician[i].scores[j];
                 totalDifference += Math.abs(parseInt(userInput) - parseInt(currentFriendScore));
+                console.log(totalDifference);
             }
+
             if (totalDifference <= bestMatch.musicianDif) {
                 bestMatch.name = musician[i].name;
                 bestMatch.photo = musician[i].photo;
