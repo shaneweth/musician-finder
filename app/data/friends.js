@@ -14,7 +14,47 @@ var musicianArray = [
             2,
             1
         ]
+    },
+    {
+        "name":"joe",
+        "photo":"http://lorempixel.com/400/200/",
+        "scores":[
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2,
+            2
+        ]
+    },
+    {
+        "name":"jim",
+        "photo":"http://lorempixel.com/400/200/",
+        "scores":[
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+            5,
+
+        ]
     }
 ];
 
-module.exports = musicianArray;
+console.log(musicianArray[0].scores.length);
+
+// use Math.abs
+
+// var totDif = [];
+// for(let i = 0; i < musicianArray[0])
+// module.exports = musicianArray;
+
