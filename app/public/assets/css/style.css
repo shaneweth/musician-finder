@@ -48,6 +48,7 @@ html {
     background-blend-mode: soft-light;
     border: .5em outset #50323285;
     border-radius: 2em;
+    margin-top: 3vh;
     padding: 1em;
 }
 .main img {
@@ -75,6 +76,7 @@ html {
     border-radius: 5px;
     border: inset 2px black;
 }
+
 .footer {
     grid-area: footer;
     background-color: rgb(37, 7, 7);
