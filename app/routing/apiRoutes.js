@@ -12,7 +12,7 @@ module.exports = function (app) {
         var bestMatch = {
             name: "",
             photo: "",
-            musicianDif: 9999
+            musicianDif: 99
         }
 
         var totalDifference = 0;

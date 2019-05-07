@@ -4,10 +4,9 @@ var path = require("path");
 var app = express();
 
 var PORT = process.env.PORT;
-if (port == null || port == "") {
-    port = 8000;
-}
-app.listen(port);
+
+app.set( "port", ( process.env.PORT || 5000 ))
+
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
