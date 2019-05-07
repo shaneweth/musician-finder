@@ -36,12 +36,19 @@ html {
     text-align: center;
 }
 
+.header h2 {
+    font-family: 'Special Elite', cursive;
+    font-size: 3em;
+
+}
+
 .main {
     grid-area: main;
     background-image: linear-gradient(to bottom, rgba(101, 122, 146, 0.8),rgba(74, 105, 74, 0.664), rgba(90, 49, 49, 0.925));
     background-blend-mode: soft-light;
     border: .5em outset #50323285;
     border-radius: 2em;
+    padding: 1em;
 }
 .main img {
     display: block;
@@ -50,6 +57,24 @@ html {
     height: 100%;
     box-shadow: #2a3b42c2;
 }   
+
+.main button {
+    width: 12vw;
+    height: 12vh;
+    background-image: linear-gradient(rgba(81, 135, 197, 0.8), rgba(74, 105, 74, 0.664), rgba(190, 73, 73, 0.925));
+    border: 1em outset rgba(34, 29, 29, 0.692);
+    border-radius: 100%;
+    color: whitesmoke;
+    text-shadow: 0 0 5px #2e3d42de;
+    box-shadow: 0 0 5px #34444bbd;
+    margin: auto auto 5rem auto;
+}
+
+.main input {
+    width: 33%;
+    border-radius: 5px;
+    border: inset 2px black;
+}
 .footer {
     grid-area: footer;
     background-color: rgb(37, 7, 7);
