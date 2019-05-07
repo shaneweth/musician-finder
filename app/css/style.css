@@ -1,0 +1,59 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    background-image: 
+    radial-gradient(circle at 100% 150%, #3b4447c2 24%, #475d66bd 25%, #738b94be 28%, #8fa8b3c2 29%, #628b9bc2 36%, #9fcde091 36%, #6785919a 40%, transparent 40%, transparent),
+    radial-gradient(circle at 0% 150%, #3b4447c2 24%, #475d66bd 25%, #738b94be 28%, #8fa8b3c2 29%, #628b9bc2 36%, #9fcde091 36%, #6785919a 40%, transparent 40%, transparent),
+    radial-gradient(circle at 50%  100%, rgb(66, 176, 210) 10%, rgb(59, 151, 193) 11%, rgb(59, 162, 193) 23%, rgb(140, 162, 168) 24%, rgb(136, 149, 165) 30%, rgb(71, 117, 155) 31%, rgb(59, 155, 193) 43%, rgb(66, 145, 210) 44%, rgb(56, 105, 124) 50%, rgb(48, 113, 139) 51%, rgb(59, 155, 193) 63%, rgba(66, 176, 210, 0.767) 64%, rgb(117, 172, 182) 71%, transparent 71%, transparent),
+    radial-gradient(circle at 100% 50%, rgb(138, 83, 83) 5%, rgb(114, 79, 79) 6%, rgb(97, 56, 56) 15%, rgb(210, 107, 66) 16%, rgb(210, 184, 66) 20%, rgb(162, 178, 202) 21%, rgb(193, 146, 59) 30%, rgb(142, 161, 177) 31%, rgb(210, 152, 66) 35%, rgb(193, 119, 59) 36%, rgb(59, 139, 193) 45%, rgb(66, 176, 210) 46%, rgb(210, 160, 66) 49%, transparent 50%, transparent),
+    radial-gradient(circle at 0    50%, rgb(138, 83, 83) 5%, rgb(114, 79, 79) 6%, rgb(97, 56, 56) 15%, rgb(210, 107, 66) 16%, rgb(210, 184, 66) 20%, rgb(162, 178, 202) 21%, rgb(193, 146, 59) 30%, rgb(142, 161, 177) 31%, rgb(210, 152, 66) 35%, rgb(193, 119, 59) 36%, rgb(59, 139, 193) 45%, rgb(66, 176, 210) 46%, rgb(210, 160, 66) 49%, transparent 50%, transparent);
+    background-size: 8rem 4rem;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 10rem 1fr 10rem;
+    grid-template-areas: 
+                        ". header ."
+                        ". main ."
+                        "footer footer footer";
+    height: 100vh;
+}
+
+.header {
+    grid-area: header;
+    background-color: #39545fd5;
+    border: .2em inset #50323279;
+    border-radius: 1em;
+    color: rgba(245, 245, 245, 0.945);
+    font-family: 'Righteous', cursive;
+    font-size: 2em;
+    text-shadow: 0 0 4px black;
+    text-align: center;
+}
+
+.main {
+    grid-area: main;
+    background-image: linear-gradient(to bottom, rgba(101, 122, 146, 0.8),rgba(74, 105, 74, 0.664), rgba(90, 49, 49, 0.925));
+    background-blend-mode: soft-light;
+    border: .5em outset #50323285;
+    border-radius: 2em;
+}
+.main img {
+    display: block;
+    margin: auto auto;
+    width: 80vw;
+    height: 100%;
+    box-shadow: #2a3b42c2;
+}   
+.footer {
+    grid-area: footer;
+    background-color: rgb(37, 7, 7);
+    text-decoration: none;
+    text-align: center;
+    color: cornsilk;
+}
